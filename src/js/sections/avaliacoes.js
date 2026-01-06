@@ -29,4 +29,44 @@ export function initAvaliacoes(root) {
       },
     }
   );
+  const videoCards = root.querySelectorAll("[data-video]");
+
+  videoCards.forEach((btn) => {
+    const card = btn.closest("li");
+    const video = card.querySelector("video");
+
+    if (!video) return;
+
+    const toggleVideo = () => {
+      if (video.paused) {
+        // pausa todos os outros
+        root.querySelectorAll("video").forEach((v) => {
+          if (v !== video) {
+            v.pause();
+            v.currentTime = 0;
+            v.closest("li")
+              ?.querySelector("[data-video]")
+              ?.classList.remove("opacity-0", "pointer-events-none");
+          }
+        });
+
+        video.play();
+        btn.classList.add("opacity-0", "pointer-events-none");
+      } else {
+        video.pause();
+        btn.classList.remove("opacity-0", "pointer-events-none");
+      }
+    };
+
+    // clique no botão
+    btn.addEventListener("click", toggleVideo);
+
+    // clique no vídeo (PAUSE)
+    video.addEventListener("click", toggleVideo);
+
+    // quando terminar
+    video.addEventListener("ended", () => {
+      btn.classList.remove("opacity-0", "pointer-events-none");
+    });
+  });
 }
