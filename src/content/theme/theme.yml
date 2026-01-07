@@ -1,6 +1,6 @@
 colors:
-  dark: "#223622"
-  fillDark: "#223622"
-  light: "#e0f2d0"
-  fillLight: "#e0f2d0"
-  fillLightSecondary: "#ebf6e1"
+  dark: "#362222"
+  fillDark: "#362222"
+  light: "#f2d0d1"
+  fillLight: "#f2d0d1"
+  fillLightSecondary: "#f2d0d1"
