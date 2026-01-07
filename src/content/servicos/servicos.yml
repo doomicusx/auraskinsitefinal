@@ -9,15 +9,16 @@ categories:
 ctaText: Agende sua sessão
 ctaLink: https://api.whatsapp.com/send/?phone=5511945380602&text=Hello+Pedro%21&type=phone_number&app_absent=0
 cards:
-  - image: /images/service2.webp
+  - image: /images/img-20260103-wa0003.jpg
     imageAlt: Pessoa relaxando durante tratamento facial
     services:
       - title: Limpeza de Pele Profunda
         description: Acalma a pele, reduz vermelhidão e desconforto.
         duration: 80–40 min
         price: R$ 90
-      - title: Limpeza de Pele Calmante
-        description: Acalma a pele, reduz vermelhidão e desconforto.
+      - title: Limpeza de Pele ◇•◇●♡♡●◇••♧•}}\€~£☆¿▪︎》¤》
+        description: Acalma a pele, reduz vermelhidão e desconforto.  Quero saber até
+          aonde vai esse texto sua valia quero te matar
         duration: 80–40 min
         price: R$ 90
       - title: Limpeza de Pele + Extração
@@ -44,5 +45,5 @@ cards:
         description: Nos lambusamos em sua tripa SOCORROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         duration: 12 min
         price: "1.500"
-    image: /images/promo.webp
+    image: /images/img-20260103-wa0010.jpg
     imageAlt: "Xiiii nao foi "
