@@ -45,3 +45,4 @@ cards:
         duration: 12 min
         price: "1.500"
     image: /images/promo.webp
+    imageAlt: "Xiiii nao foi "
